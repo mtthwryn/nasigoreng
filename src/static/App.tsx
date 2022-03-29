@@ -6,6 +6,7 @@ import { IUser, User } from "../models/User";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import SotongGuidePage from "./components/SotongGuide";
+import PrivacyPolicyPage from "./components/PrivacyPolicy";
 import UserViewPage from "./components/UserView";
 import TestBank from "./components/TestBank";
 import UserProfilePage from "./components/UserProfile";
@@ -85,6 +86,10 @@ class App extends React.Component<{}, Readonly<IAppState>> {
                 <Route
                   render={() => <PCP appState={this.state} />}
                   path="/pcp"
+                />
+                <Route
+                  component={PrivacyPolicyPage}
+                  path="/privacy"
                 />
                 <Route component={HomePage} path="/" />
               </Switch>
