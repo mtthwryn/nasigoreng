@@ -54,9 +54,14 @@ export const HomePage = () => {
                     <p>Get oriented with our <Link to="/guide">Sotong Guide</Link> for incoming freshmen and <a href="/auth/facebook">sign up</a> for
                     an account to get access to our resources!</p>
                     <p>
-                      Be sure to
-                    join our <a target="_blank" href="https://www.facebook.com/groups/122880215014668/">SSA Facebook group</a>, <a target="_blank" href="https://join.slack.com/t/ucla-ssa/shared_invite/zt-h5yndos4-BE0_AgcDMrDJ2DkLplkzdA">Slack channel</a>,
-                    and subscribe to our <a target="_blank" href="https://mailchi.mp/868c856a80ab/join-our-ssa-mailing-list">newsletter</a>!
+                    Be sure to
+                    join our <a target="_blank" href="https://discord.gg/cEk7YuPZ">Discord channel</a> and follow
+                    our <a target="_blank" href="https://www.instagram.com/ucla.ssa/">Instagram page</a>. These
+                    are our primary means of communication!
+                    </p>
+                    <p>
+                    Do also join the <a target="_blank" href="https://www.facebook.com/groups/122880215014668/">SSA Facebook group</a> and
+                    subscribe to our <a target="_blank" href="https://mailchi.mp/868c856a80ab/join-our-ssa-mailing-list">newsletter</a>!
                     </p>
                 </IntroBlock>
                 <IntroBlock heading="Members/Alumni" icon={oldManImg}>

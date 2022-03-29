@@ -9,7 +9,7 @@ export const Footer = () => {
                     <br />
                     Icons from thenounproject.com
                     <br />
-                    <a href="/privacy">Privacy Policy</a> | <a href="https://github.com/uclassa/nasigoreng">Github</a> | <a target="_blank" href="https://www.facebook.com/groups/122880215014668/">Facebook</a> | <a href="mailto:exco@uclassa.org">Contact</a> | <a target="_blank" href="https://join.slack.com/t/ucla-ssa/shared_invite/zt-h5yndos4-BE0_AgcDMrDJ2DkLplkzdA">Slack</a> | <a target="_blank" href="https://mailchi.mp/868c856a80ab/join-our-ssa-mailing-list">Newsletter</a>
+                    <a href="/privacy">Privacy Policy</a> | <a target="_blank" href="https://discord.com/invite/NNGb5EGtKs">Discord</a> | <a target="_blank" href="https://www.instagram.com/ucla.ssa/">Instagram</a>| <a href="https://github.com/uclassa/nasigoreng">Github</a> | <a target="_blank" href="https://www.facebook.com/groups/122880215014668/">Facebook</a> | <a href="mailto:exco@uclassa.org">Email</a> | <a target="_blank" href="https://mailchi.mp/868c856a80ab/join-our-ssa-mailing-list">Newsletter</a>
                 </div>
             </div>
         </footer>
