@@ -3,7 +3,7 @@ import { Schema } from "mongoose";
 import { IUserModel, IUser } from "./User";
 
 interface ISimpleTestBankFile {
-  id: string;
+  id?: any;
   name: string;
   department: string;
   courseNumber: string;
