@@ -46,13 +46,14 @@ export const Navbar: StatelessComponent<IRequiresAppState> = ({
             {/* <input className="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search" /> */}
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret className="mr-2">
-                Resources
+                <Link to="/guide">
+                  Sotong Guide
+                </Link>
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
                   <Link to="/guide">
-                    <img src={squid} />
-                    Sotong Guide
+                  Visa and Important Deadlines
                   </Link>
                 </DropdownItem>
                 {userData && (
