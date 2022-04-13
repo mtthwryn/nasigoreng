@@ -1,11 +1,9 @@
-import React, { CSSProperties, StatelessComponent } from "react";
+import React, { CSSProperties } from "react";
 import { Link } from "react-router-dom";
 import coverImg from "../assets/pp.jpeg";
 import squidImg from "../assets/squid.png";
 import oldManImg from "../assets/oldman.png";
 import phoneImg from "../assets/phone.png";
-
-import { PromiseProvider } from "mongoose";
 
 export const HomePage = () => {
 
@@ -18,7 +16,7 @@ export const HomePage = () => {
         icon: string;
     }
 
-    const IntroBlock: StatelessComponent<IntroBlockProps> = (props) => (
+    const IntroBlock = (props) => (
         <div className="col-md-4">
             <div className="row">
                 <div className="col-3 col-sm-12">

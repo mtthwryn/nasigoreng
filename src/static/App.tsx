@@ -3,7 +3,7 @@ import axios from "axios";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { HomePage } from "./components/Home";
 import { IUser, User } from "../models/User";
-import { Navbar } from "./components/Navbar";
+import { Navbar } from "./components/Navbar/Navbar";
 import { Footer } from "./components/Footer";
 import SotongGuidePage from "./components/SotongGuide";
 import PrivacyPolicyPage from "./components/PrivacyPolicy";
@@ -11,6 +11,7 @@ import UserViewPage from "./components/UserView";
 import TestBank from "./components/TestBank";
 import UserProfilePage from "./components/UserProfile";
 import PCP from "./components/PCP";
+import ArbitraryPage from "./components/ArbitraryPage/ArbitraryPage";
 
 interface IAppState {
   userData?: IUser;
@@ -70,6 +71,26 @@ class App extends React.Component<{}, Readonly<IAppState>> {
                 <Route
                   render={() => <SotongGuidePage appState={this.state} />}
                   path="/guide"
+                />
+                <Route
+                  render={() => <ArbitraryPage appState={this.state} />}
+                  path="/arbitraryPage"
+                />
+                <Route
+                  render={() => <ArbitraryPage appState={this.state} />}
+                  path="/events"
+                />
+                <Route
+                  render={() => <ArbitraryPage appState={this.state} />}
+                  path="/sponsorships"
+                />
+                <Route
+                  render={() => <ArbitraryPage appState={this.state} />}
+                  path="/newsletters"
+                />
+                <Route
+                  render={() => <ArbitraryPage appState={this.state} />}
+                  path="/joinUs"
                 />
                 <Route
                   render={() => <UserViewPage appState={this.state} />}
