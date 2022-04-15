@@ -1,0 +1,10 @@
+.socials {
+    display: flex;
+    flex-direction: row;
+}
+
+.social {
+    height: 1.5vw;
+    width: 1.5vw;
+    margin: 10px;
+}

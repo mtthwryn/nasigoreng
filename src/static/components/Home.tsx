@@ -4,6 +4,8 @@ import coverImg from "../assets/pp.jpeg";
 import squidImg from "../assets/squid.png";
 import oldManImg from "../assets/oldman.png";
 import phoneImg from "../assets/phone.png";
+import randy from "../assets/img.png";
+import "./Home.css";
 
 export const HomePage = () => {
 
@@ -39,19 +41,28 @@ export const HomePage = () => {
             <div className="row">
                 <div className="hero" style={backgroundImgStyle}></div>
             </div>
-            <div className="row mt-3">
+            <IntroBlock className="introduction">
+                <img src = {randy}/>
+                <div className="intro-text">
+                   <div className="divider" />
+                      <h4>About us!</h4>
+                      <p>
+                      The Singapore Students Association is a student-led organisation that aims to act as a community for Singaporean students at UCLA. We hope to serve as a familiar society that provides support and comfort for students of similar backgrounds thousands of miles away from home. The organisation also hopes to educate students not of Singaporean origin of the culture through sharing and communication between our members and the rest of the UCLA community. We welcome anyone who has lived/studied in Singapore, has Singaporean friends, or who feels connected to Singaporean culture in any way!
+                      </p>
+                  <div className="divider" />
+                </div>
+            </IntroBlock>
+        </div>
+    );
+};
+
+            {/* <div className="row mt-3">
                 <div className="col title">
                     <h2>UCLA</h2>
                     <h1>Singapore Students Association</h1>
                     <h5>Your home to all things Singaporean at UCLA!</h5>
                 </div>
             </div>
-            <div className="divider" />
-                <h4>About us!</h4>
-                <p>
-                The Singapore Students Association is a student-led organisation that aims to act as a community for Singaporean students at UCLA. We hope to serve as a familiar society that provides support and comfort for students of similar backgrounds thousands of miles away from home. The organisation also hopes to educate students not of Singaporean origin of the culture through sharing and communication between our members and the rest of the UCLA community. We welcome anyone who has lived/studied in Singapore, has Singaporean friends, or who feels connected to Singaporean culture in any way!
-                </p>
-            <div className="divider" />
             <div className="row mt-4 directions">
                 <IntroBlock heading="New to UCLA" icon={squidImg}>
                     <p>Get oriented with our <Link to="/guide">Sotong Guide</Link> for incoming freshmen and <a href="/auth/facebook">sign up</a> for
@@ -74,7 +85,4 @@ export const HomePage = () => {
                     We're always looking for sponsorship and career opportunities! You can reach us <a href="mailto:exco@uclassa.org">via email</a> or
                     simply drop any of us a message on Facebook!
                 </IntroBlock>
-            </div>
-        </div>
-    );
-};
+            </div> */}
