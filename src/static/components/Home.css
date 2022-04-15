@@ -1,0 +1,14 @@
+.introduction{
+    display: block;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+
+.introduction img{
+    float: left;
+}
+
+.intro-text{
+    word-wrap: break-word;
+}

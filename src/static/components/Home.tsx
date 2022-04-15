@@ -4,6 +4,8 @@ import coverImg from "../assets/pp.jpeg";
 import squidImg from "../assets/squid.png";
 import oldManImg from "../assets/oldman.png";
 import phoneImg from "../assets/phone.png";
+import randy from "../assets/img.png";
+import "./Home.css";
 
 export const HomePage = () => {
 
@@ -39,7 +41,19 @@ export const HomePage = () => {
             <div className="row">
                 <div className="hero" style={backgroundImgStyle}></div>
             </div>
-            <div className="row mt-3">
+            <IntroBlock className="introduction">
+                <img src = {randy}/>
+                <div className="intro-text">
+                    <p>
+                        Hello welcome to UCLA SSA my name is Matthew and I will be your host for today's stand up comedy show where we will see Zinc do a backflip off this 3 meter tall stool.
+                    </p>
+                </div>
+            </IntroBlock>
+        </div>
+    );
+};
+
+            {/* <div className="row mt-3">
                 <div className="col title">
                     <h2>UCLA</h2>
                     <h1>Singapore Students Association</h1>
@@ -69,7 +83,4 @@ export const HomePage = () => {
                     We're always looking for sponsorship and career opportunities! You can reach us <a href="mailto:exco@uclassa.org">via email</a> or
                     simply drop any of us a message on Facebook!
                 </IntroBlock>
-            </div>
-        </div>
-    );
-};
+            </div> */}

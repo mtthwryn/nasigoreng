@@ -10,6 +10,7 @@ import LinkToJoin from "../JoinUs/LinkToJoin";
 import LinkToNewsletters from "../Newsletters/LinkToNewsletters";
 import LinkToEvents from "../Events/LinkToEvents";
 import LinkToSponsorships from "../Sponsorships/LinkToSponsorships";
+import Socials from "../Socials/Socials";
 
 export const Navbar = ({
   appState: { userData }
@@ -28,7 +29,7 @@ export const Navbar = ({
       <div className="objs">
         <Link to="/">
           <div className="ssaLogo">
-            <img src={ssaLogo} className="ssaLogo" />
+            <img src={ssaLogo} className="ssaLogo"/>
           </div>
         </Link>
         <Nav className="ml-auto pr-1 pr-md-0 tabs">
@@ -38,6 +39,7 @@ export const Navbar = ({
           <LinkToNewsletters />
           <LinkToJoin />
           <SotongGuideDropdown userData = {userData} />
+          <Socials />
           <NavItem>{userIconOrSignIn}</NavItem>
         </Nav>
       </div>
