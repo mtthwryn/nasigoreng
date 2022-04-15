@@ -45,7 +45,7 @@ class PCP extends React.Component<IUserViewProps, IUserViewState> {
         <td>{user.major}</td>
         <td>{user.preferredChannel}</td>
       </tr>
-      
+
     );
 
     const UserTables = () => {
